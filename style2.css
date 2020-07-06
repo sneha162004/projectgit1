@@ -1,0 +1,84 @@
+form {
+    width: 300px;
+    display: block;
+}
+
+.input {
+    width:100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin:  5px;
+
+}
+
+rounded-input {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input:focus, textarea:focus {
+    box-shadow:0 0 4px rgba(255, 0, 0, 0.5);
+    border: 1px solid rgba(255, 0, 0);
+
+}
+
+textfield {
+    width: 100px;
+}
+
+::placeholder {
+    color: red;
+    opacity: 1;
+}
+
+.radio {
+    margin: 5px;
+}
+
+.select {
+    margin: 5px;
+    padding: 5px;
+}
+
+.agree{
+    display: inline;
+}
+
+
+.submit {
+    margin: 10px;
+}
+
+@media screen and (max-width="400px") {
+    .input {
+        overflow: hidden;
+        width: 50%;
+        border-radius: 5px;
+
+    }
+
+    .select {
+        overflow: hidden;
+        width: 50%;
+        border-radius: 5px;
+    }
+}
+         
+    
+
+    
+   
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
